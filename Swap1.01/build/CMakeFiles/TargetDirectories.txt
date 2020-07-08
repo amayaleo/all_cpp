@@ -1,3 +1,0 @@
-/media/compaq/FILES/development/sourceCpp/aprender/Swap1.01/build/CMakeFiles/rebuild_cache.dir
-/media/compaq/FILES/development/sourceCpp/aprender/Swap1.01/build/CMakeFiles/edit_cache.dir
-/media/compaq/FILES/development/sourceCpp/aprender/Swap1.01/build/CMakeFiles/app.dir

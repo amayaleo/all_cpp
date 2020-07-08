@@ -1,3 +1,0 @@
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/single_tuple/build/CMakeFiles/rebuild_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/single_tuple/build/CMakeFiles/edit_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/single_tuple/build/CMakeFiles/app.dir

@@ -1,3 +1,0 @@
-/media/leo/FILES/development/source/sourceCpp2020/AprenderSrcCpp/single_basic_gam2_v1.01/build/CMakeFiles/rebuild_cache.dir
-/media/leo/FILES/development/source/sourceCpp2020/AprenderSrcCpp/single_basic_gam2_v1.01/build/CMakeFiles/edit_cache.dir
-/media/leo/FILES/development/source/sourceCpp2020/AprenderSrcCpp/single_basic_gam2_v1.01/build/CMakeFiles/app.dir

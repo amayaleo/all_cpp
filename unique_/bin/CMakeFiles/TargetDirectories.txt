@@ -1,3 +1,0 @@
-/media/compaq/FILES/development/sourceCpp/AprenderSrcCpp/unique_/bin/CMakeFiles/rebuild_cache.dir
-/media/compaq/FILES/development/sourceCpp/AprenderSrcCpp/unique_/bin/CMakeFiles/edit_cache.dir
-/media/compaq/FILES/development/sourceCpp/AprenderSrcCpp/unique_/bin/CMakeFiles/unique.dir

@@ -1,3 +1,0 @@
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/chrono_my_chrono/build/CMakeFiles/rebuild_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/chrono_my_chrono/build/CMakeFiles/edit_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/chrono_my_chrono/build/CMakeFiles/app.dir

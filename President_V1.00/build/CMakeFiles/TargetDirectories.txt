@@ -1,3 +1,0 @@
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/President_V1.00/build/CMakeFiles/rebuild_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/President_V1.00/build/CMakeFiles/edit_cache.dir
-/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/President_V1.00/build/CMakeFiles/app.dir
