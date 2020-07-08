@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/compaq/FILES/development/sourceCpp/AprenderSrcCpp/unique_/src/main.cpp
+cstdint
+-
+iostream
+-
+memory
+-
+

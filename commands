@@ -1,0 +1,2 @@
+dpkg --add-arquiecture i386
+

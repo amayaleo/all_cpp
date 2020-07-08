@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17  -Wall -pedantic  -g   CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/debug.cpp.o  -o app 

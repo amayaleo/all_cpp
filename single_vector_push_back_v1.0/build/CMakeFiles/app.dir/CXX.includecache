@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/leo/FILES/development/sourceCpp/AprenderSrcCpp/single_vector_push_back_v1.0/src/main.cpp
+iostream
+-
+vector
+-
+string
+-
+

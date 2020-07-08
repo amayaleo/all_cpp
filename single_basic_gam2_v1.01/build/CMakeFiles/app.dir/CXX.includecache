@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/leo/FILES/development/source/sourceCpp2020/AprenderSrcCpp/single_basic_gam2_v1.01/src/main.cpp
+iostream
+-
+algorithm
+-
+cstdint
+-
+memory
+-
+vector
+-
+

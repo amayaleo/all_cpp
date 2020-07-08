@@ -1,0 +1,126 @@
+#include <iostream>
+#include <algorithm>
+#include <cstdint>
+#include <memory>
+#include <vector>
+
+
+namespace ECS
+{
+	struct Component_t
+	{
+
+	};
+
+	struct Sprite_t
+	{
+	};
+
+	struct Entity_t
+	{
+	private:
+		std::unordered_map<std::size_t , Component_t*> components;
+
+	public:
+		void addComponent(std::size_t type ,Component_t& c)
+		{
+			components[type] = &c;
+		}
+
+		Component_t* getComponent_t(std::size_t type)
+		{
+
+			auto it = components.find(type);
+
+			if( it!= components.end() )
+			{
+				return it->second;
+			}
+			return nullptr;
+		}
+
+
+
+
+		const Component_t* getComponent(std::size_t type)const
+		{
+			auto p = const_cast<Entity_t*>(this)->getComponent_t(type);
+
+		return const_cast<const Component_t*>(p);
+		}
+
+
+	};
+}
+
+	struct PositionComponent_t : ECS::Component_t 
+	{
+                uint8_t x,y;
+
+	};
+	template<typeanem TYPE>
+	struct RenderComponent_t : ECS::Component_t
+	{
+		uint8_t w,h;
+		char sp;
+	};
+
+
+	void cls(){std::puts("\033[H\033[J");}
+
+	void locate (uint8_t x , uint8_t y ){std::printf("\033[%d;%dH",y,x);}
+	template <typename TYPE>
+	void draw(const ECS::Entity_t& 
+//	auto* p = static_cast <const PositionComponent_t*>( e.getComponent(1));
+	auto* r = static_cast <const TYPE*>(e.getComponent(2));
+
+
+	if( r )
+	{
+		locate(r->x,r->y);
+		std::putchar(r->sp);
+	}
+}
+
+
+
+
+
+
+
+int main()
+{
+
+	std::vector<ECS::Entity_t>entities;
+	entities.reserve(10);
+
+	auto& player = entities.emplace_back();
+
+	auto& e2  = entities.emplace_back();
+
+
+
+	RenderComponent_t <uint16_t> 	r 	{ {} , 1 , 1 , 'x' } ;
+
+	player.addComponent	( 1, r );
+
+	RenderComponent_t 	r2 { {} , 1,1 ,'2' };
+
+	e2.addComponent 	( 1, r2 );
+
+
+
+
+
+
+
+
+
+
+		cls();
+
+		std::for_each( entities.begin() , entities.end() , draw <RenderComponent_t< uint16_t > >);
+//		std::getchar()
+
+  return 0;
+}
